@@ -9,6 +9,9 @@
     <color name="lightGray">#7a7b7b</color>
     <color name="orange">#f75c08</color>
 
+    <color name="green">#008577</color>
+    <color name="red">#D81B60</color>
+
     <color name="cursor_color">#f75c08</color>
     <color name="edittext_framework_color">#f64905</color>
 

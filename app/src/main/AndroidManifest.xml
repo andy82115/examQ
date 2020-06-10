@@ -10,9 +10,8 @@
         android:resizeable="true"
         android:smallScreens="true" />
 
-    <!--newtworkSecurityConfig is optional, it based on if this app need to utilize the http or not-->
     <application
-        android:name="com.andyyeh.examQ.ThisApplication"
+        android:name=".ThisApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -20,13 +19,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.andyyeh.examQ.mainActivity.MainActivity" />
-        <activity android:name="com.andyyeh.examQ.launchActivity.LaunchActivity">
+        <activity android:name=".secondActivity.SecondActivity"></activity>
+        <activity android:name=".mainActivity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".launchActivity.LaunchActivity"></activity>
     </application>
 
 </manifest>
