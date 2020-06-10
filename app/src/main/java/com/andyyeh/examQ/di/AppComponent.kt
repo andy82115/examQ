@@ -1,7 +1,7 @@
-package com.andyyeh.template.di
+package com.andyyeh.examQ.di
 
 import android.app.Application
-import com.andyyeh.template.ThisApplication
+import com.andyyeh.examQ.ThisApplication
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjector

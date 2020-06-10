@@ -1,8 +1,8 @@
-package com.andyyeh.template.launchActivity
+package com.andyyeh.examQ.launchActivity
 
 import android.view.View
 import androidx.databinding.ObservableField
-import com.andyyeh.template.mvvmBase.BaseViewModel
+import com.andyyeh.examQ.mvvmBase.BaseViewModel
 
 class LaunchActivityViewModel() : BaseViewModel(){
     //config val

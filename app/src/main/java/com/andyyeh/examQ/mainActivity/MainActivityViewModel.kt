@@ -1,7 +1,7 @@
-package com.andyyeh.template.mainActivity
+package com.andyyeh.examQ.mainActivity
 
-import com.andyyeh.template.Configuration
-import com.andyyeh.template.mvvmBase.BaseViewModel
+import com.andyyeh.examQ.Configuration
+import com.andyyeh.examQ.mvvmBase.BaseViewModel
 
 class MainActivityViewModel(repository: MainActivityRepository) : BaseViewModel() {
 

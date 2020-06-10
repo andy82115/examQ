@@ -1,4 +1,4 @@
-package com.andyyeh.template.launchActivity
+package com.andyyeh.examQ.launchActivity
 
 import android.animation.Animator
 import android.annotation.SuppressLint
@@ -13,11 +13,11 @@ import android.view.ViewAnimationUtils
 import android.view.animation.AccelerateInterpolator
 import androidx.core.app.ActivityOptionsCompat
 import androidx.databinding.DataBindingUtil
-import com.andyyeh.template.animateListener.AnimatorListener
-import com.andyyeh.template.R
-import com.andyyeh.template.databinding.ActivityLaunchBinding
-import com.andyyeh.template.mainActivity.MainActivity
-import com.andyyeh.template.mvvmBase.BaseActivity
+import com.andyyeh.examQ.animateListener.AnimatorListener
+import com.andyyeh.examQ.R
+import com.andyyeh.examQ.databinding.ActivityLaunchBinding
+import com.andyyeh.examQ.mainActivity.MainActivity
+import com.andyyeh.examQ.mvvmBase.BaseActivity
 import kotlinx.android.synthetic.main.activity_launch.*
 import javax.inject.Inject
 import kotlin.math.hypot

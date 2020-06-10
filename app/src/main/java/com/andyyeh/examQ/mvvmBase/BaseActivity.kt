@@ -1,4 +1,4 @@
-package com.andyyeh.template.mvvmBase
+package com.andyyeh.examQ.mvvmBase
 
 import dagger.android.support.DaggerAppCompatActivity
 

@@ -1,7 +1,7 @@
-package com.andyyeh.template.launchActivity
+package com.andyyeh.examQ.launchActivity
 
-import com.andyyeh.template.databinding.ActivityLaunchBinding
-import com.andyyeh.template.di.ActivityScoped
+import com.andyyeh.examQ.databinding.ActivityLaunchBinding
+import com.andyyeh.examQ.di.ActivityScoped
 import dagger.Module
 import dagger.Provides
 
