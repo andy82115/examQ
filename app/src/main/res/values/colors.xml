@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="darkGray">#262b34</color>
+    <color name="lightGray">#7a7b7b</color>
+    <color name="orange">#f75c08</color>
+
+    <color name="cursor_color">#f75c08</color>
+    <color name="edittext_framework_color">#f64905</color>
+
+    <color name="category_name_bar">#97c1f3</color>
+
+    <color name="novel_name_bar">#ef2424</color>
+
+    <color name="fragment_top_bar_start_color">#840c01</color>
+    <color name="fragment_top_bar_end_color">#f3f58a</color>
+</resources>
