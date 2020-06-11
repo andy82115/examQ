@@ -7,6 +7,7 @@ import com.andyyeh.examQ.mainActivity.data.ClimateModel
 import dagger.Module
 import dagger.Provides
 
+/**dependence inject module**/
 @Module
 class MainActivityModule{
 
@@ -16,8 +17,8 @@ class MainActivityModule{
     }
 
     @ActivityScoped
-    @Provides fun mainActivityViewModel(mainActivityRepository: MainActivityRepository) : MainActivityViewModel{
-        return MainActivityViewModel(mainActivityRepository)
+    @Provides fun mainActivityViewModel(mainActivityRepository: MainActivityRepository, climateModel: ClimateModel) : MainActivityViewModel{
+        return MainActivityViewModel(mainActivityRepository, climateModel)
     }
 
     @ActivityScoped

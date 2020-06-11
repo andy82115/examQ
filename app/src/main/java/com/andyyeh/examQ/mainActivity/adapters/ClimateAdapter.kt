@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.andyyeh.examQ.Configuration
 import com.andyyeh.examQ.R
+import com.andyyeh.examQ.mainActivity.MainActivityViewModel
 import com.andyyeh.examQ.mainActivity.data.ClimateBean
 import com.andyyeh.examQ.mainActivity.data.ClimateModel
 import com.bumptech.glide.Glide

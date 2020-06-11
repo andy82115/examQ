@@ -4,18 +4,12 @@ import com.andyyeh.examQ.Configuration
 import com.andyyeh.examQ.R
 
 class ClimateModel {
-    val datas = ArrayList<ClimateBean>()
+    var datas = ArrayList<ClimateBean>()
 
-    init {
-        createTestData()
-    }
+    init {}
 
-    //FIXME: This is fake data for UI flow
-    private fun createTestData(){
-        val bean = ClimateBean(Configuration.CLIMATE_TXT_TYPE, "2020", "2020","20C", -1)
-        val bean2 = ClimateBean(Configuration.CLIMATE_IMG_TYPE, "2020", "2020","20", R.mipmap.ic_launcher)
-
+    fun addData(bean: ClimateBean){
         datas.add(bean)
-        datas.add(bean2)
+        datas.add(ClimateBean(Configuration.CLIMATE_IMG_TYPE, "", "", "", R.mipmap.ic_launcher_round))
     }
 }
